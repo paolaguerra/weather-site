@@ -1,6 +1,7 @@
 import React from "react";
 import PropTypes from "prop-types";
 
+
 export const TemperaturaPrincipal = (props) => {
   return (
     <div className="temperatura-principal">
@@ -9,6 +10,7 @@ export const TemperaturaPrincipal = (props) => {
       <div className="min-max-hoy">
         <p className="min-hoy">Min: {props.min}°</p>
         <p className="max-hoy">Max: {props.max}°</p>
+        <p className="weathercode">{props.code}</p>
       </div>
     </div>
   );

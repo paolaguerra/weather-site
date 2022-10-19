@@ -69,8 +69,8 @@ span.local-time {
 .clima-semanal {
     display: flex;
     background: #3b69b1a6;
-    width: 200px;
-    height: 110px;
+    width: 230px;
+    height: 140px;
     border-radius: 20px;
     flex-direction: column;
     align-items: center;
@@ -94,7 +94,7 @@ p.dia-semana {
 p.temperatura-minima {
     display: flex;
     color: white;
-    font-size: 17px;
+    font-size: 16px;
     font-family: helvetica;
     font-weight: bold;
     margin-top: 0px;
@@ -104,7 +104,7 @@ p.temperatura-minima {
 p.temperatura-maxima {
     display: flex;
     color: white;
-    font-size: 17px;
+    font-size: 16px;
     font-family: helvetica;
     font-weight: bold;
     margin-left: 20px;
@@ -115,12 +115,11 @@ p.temperatura-maxima {
 .contenedor-CimaSemana {
     display: flex;
     justify-content: center;
-    margin-top: 50px;
+    margin-top: 35px;
 }
 
 .min-max-hoy {
     display: flex;
-    margin-right: 20px;
 }
 
 p.min-hoy {
@@ -134,4 +133,176 @@ p.max-hoy {
     margin-left: 15px;
     color: white;
     font-family: helvetica;
+}
+
+.cont-int-code {
+    display: flex;
+    justify-content: center;
+}
+
+.int-code {
+    display: flex;
+    margin-bottom: 15px;
+    color: white;
+    font-family: helvetica;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+p.weekly-code {
+    margin-top: 0;
+    color: white;
+    font-family: helvetica;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.clearsky {
+    display: flex;
+    align-items: center;
+    margin: 0;
+}
+
+p.clearsky {
+    display: flex;
+}
+
+img.clearsky {
+    width: 30px;
+    height: 30px;
+    display: flex;
+}
+
+.mainlyclear {
+    display: flex;
+    align-items: center;
+    margin: 0;
+}
+
+p.mainlyclear {
+    display: flex;
+}
+
+img.mainlyclear {
+    width: 30px;
+    height: 30px;
+    display: flex;
+} 
+
+.overcast {
+    display: flex;
+    align-items: center;
+    margin: 0;
+}
+
+p.overcast {
+    display: flex;
+}
+
+img.overcast {
+    width: 30px;
+    height: 30px;
+    display: flex;
+}
+
+.fog {
+    display: flex;
+    align-items: center;
+    margin: 0;
+}
+
+p.fog {
+    display: flex;
+}
+
+img.fog {
+    width: 18px;
+    height: 18px;
+    margin-left: 5px;
+    display: flex;
+}
+
+.drizzle {
+    display: flex;
+    align-items: center;
+    margin: 0;
+}
+
+p.drizzle {
+    display: flex;
+}
+
+img.drizzle {
+    width: 18px;
+    height: 18px;
+    margin-left: 5px;
+    display: flex;
+}
+
+.freezingdrizzle {
+    display: flex;
+    align-items: center;
+    margin: 0;
+}
+
+p.freezingdrizzle {
+    display: flex;
+}
+
+img.freezingdrizzle {
+    width: 18px;
+    height: 18px;
+    margin-left: 5px;
+    display: flex;
+}
+
+.rain {
+    display: flex;
+    align-items: center;
+    margin: 0;
+}
+
+p.rain {
+    display: flex;
+}
+
+img.rain {
+    width: 18px;
+    height: 18px;
+    margin-left: 5px;
+    display: flex;
+}
+
+.snow {
+    display: flex;
+    align-items: center;
+    margin: 0;
+}
+
+p.snow {
+    display: flex;
+}
+
+img.snow {
+    width: 18px;
+    height: 18px;
+    margin-left: 5px;
+    display: flex;
+}
+
+.thunderstorm {
+    display: flex;
+    align-items: center;
+    margin: 0;
+}
+
+p.thunderstorm {
+    display: flex;
+}
+
+img.thunderstorm {
+    width: 18px;
+    height: 18px;
+    margin-left: 5px;
+    display: flex;
 }
